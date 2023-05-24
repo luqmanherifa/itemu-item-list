@@ -96,7 +96,7 @@ export default class Pages extends Component {
     return (
       <>
         <NavbarComponent />
-        <div className="container mt-5">
+        <div className="container mt-5 pb-5">
           <TableComponent
             items={this.state.items}
             editData={this.editData}
